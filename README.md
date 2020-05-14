@@ -1,5 +1,5 @@
 # wabot
 whatsapp bot with puppeteer & rivescript 
 
-##Start 
+## Run app 
 npm start
