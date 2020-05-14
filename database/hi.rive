@@ -1,0 +1,16 @@
+! version = 2.0
+
++ (hi|helo|hello|hai|hy|hay|he|hey|apa kabar|halo|hallo)
+- hallo, iya apa kabar?
+- hi
+- iya, ada yang bisa saya bantu?
+
++ (terimakasih|trims|trmkasih|thanks|oke|makasih|mksh)
+- Baik, ada yang bisa saya bantu lagi?
+
++ (share|bagikan) kontak
+- https://api.whatsapp.com/send?phone=6281232088696&text=hallo 
+
++ *
+- Maaf saya tidak mengerti apa yang kamu tulis, tapi saya akan pelajari itu. \n\n
+^ coba perintah wiki ...

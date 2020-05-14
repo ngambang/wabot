@@ -1,0 +1,47 @@
+! version = 2.0
+
++ wiki
+- Maaf anda ingin mencari apa? \n
+^ contoh wiki indonesia 
+
++ wiki *
+- <call>wikipedia <star></call>
+
+> object wikipedia javascript
+  var axios = require("axios");   
+  var text = escape(args.join(" "));
+
+
+  return new Promise(function(resolve, reject) {
+    
+    
+    var uriWiki = "https://id.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&titles="+text;
+    axios.get(uriWiki)
+    .then((response) => {
+        
+        var data     = response['data']['query']['pages'];
+        var keyJson  = Object.keys(data);
+        var result   = "";
+        if(keyJson > -1){
+
+            result = data[keyJson]['extract'];
+
+        }else{
+
+            result = "Yang anda cari tidak ditemukan";
+        }
+
+        resolve(result);
+    
+    }, (error) => {
+
+        resolve(error);
+
+   });
+
+
+  })
+
+
+
+< object

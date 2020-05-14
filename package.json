@@ -1,0 +1,24 @@
+{
+  "name": "wabot",
+  "version": "1.0.0",
+  "description": "Whatsapp Bot ",
+  "main": "wabot.js",
+  "scripts": {
+    "wabot" : "node wabot.js", 
+    "api"   : "node apichat.js", 
+    "start" : "npm run api | npm run wabot "
+  },
+  "keywords": [
+    "Whatsapp",
+    "bot"
+  ],
+  "author": "Lintar Febriyanto [+6281232088696][lintar.febri@gmail.com]",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "puppeteer": "^3.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "rivescript": "^2.1.0"
+  }
+}
