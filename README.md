@@ -10,4 +10,5 @@ npm start
 
 #### Working as of 📅 14/05/2020
 
-#### lintar.febri@gmail.com
+#### Email    : lintar.febri@gmail.com
+#### Telegram : 081232088696
