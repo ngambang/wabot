@@ -11,4 +11,4 @@ npm start
 #### Working as of 📅 14/05/2020
 
 #### Email    : lintar.febri@gmail.com
-#### Telegram : 081232088696
+#### Telegram : @ngambang
