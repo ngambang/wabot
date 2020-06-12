@@ -8,7 +8,7 @@ npm start
 ![Screenshot](demo.png)
 
 
-#### Working as of 📅 14/05/2020
+#### Working as of 📅  14/05/2020
 
 #### Email    : lintar.febri@gmail.com
 #### Telegram : @ngambang
